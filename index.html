@@ -35,7 +35,10 @@
       <div class="aba-conteudo">
         <h3 class="aba-conteudo-titulo-principal"> Atualizar meu curriculo com os certificados da Alura</h3>
         <h4 class="aba-conteudo-titulo-secundario"> Tempo para completar o objetivo</h4>
-        <div class="contador"></div>
+        let segundos = Math.floor(tempoFinal / 1000);
+        let minutos = Math.floor(segundos / 60);
+        let horas = Math.floor(minutos / 60);
+        let dias = Math.floor(horas / 24);       <div class="contador"></div>
       </div>
     </div>
   </div>
